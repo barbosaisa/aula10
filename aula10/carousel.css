@@ -14,19 +14,19 @@ body {
   
   /* Classe base do carousel */
   .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
   
   /* Já que usamos posicionamento de imagens, precisaremos fazer alguns ajustes na legenda */
   .carousel-caption {
-    bottom: 3rem;
+    bottom: 4rem;
     z-index: 10;
   }
   
   /* Declaramos alturas, devido ao posicionamento do elemento img */
   .carousel-item {
     height: 32rem;
-    background-color: #777;
+    background-color: rgb(21, 47, 116);
   }
   .carousel-item > img {
     position: absolute;
